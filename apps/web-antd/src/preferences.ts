@@ -20,8 +20,13 @@ export const overridesPreferences = defineOverridesPreferences({
   app: {
     /** 后端路由模式 */
     accessMode: 'backend',
+    layout: 'mixed-nav',
     name: import.meta.env.VITE_APP_TITLE,
     enableRefreshToken: true,
+  },
+  theme: {
+    builtinType: 'sky-blue',
+    "colorPrimary": "hsl(231 98% 65%)",
   },
   footer: {
     /** 默认关闭 footer 页脚，因为有一定遮挡 */
